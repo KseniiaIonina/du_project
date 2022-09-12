@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu_Project</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+        }
+        .menu {
+            position:fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 300px;
+            background: rgb(209, 208, 208);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 20px 0 40px 0;
+        }
+        .nav {
+            padding-bottom: 200px;
+        }
+        .nav__item {
+            list-style: none;
+        }
+        .nav__item:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        .nav__list {
+            padding: 0;
+        }
+        .button {
+            border: none;
+            background: none;
+            font-size: 1.1rem;
+            color: rgb(149, 149, 149);
+            cursor: pointer;
+        }
+        .icon {
+            font-size: 1.5rem;
+        }
+
+    </style>
+</head>
+<body>
+   <aside class="menu">
+    <h3 class="logo">
+        memo
+    </h3>
+    <nav class="nav">
+       <ul class="nav__list">
+        <li class="nav__item">
+            <a class="nav__link" href="">
+                <span class="icon">
+                    <i class="lab la-discourse"></i>
+                </span> 
+            <span>Courses</span>
+            </a>
+        </li>
+           <li class="nav__item">
+               <a class="nav__link" href="">Payment</a>
+           </li>
+        <li class="nav__item">
+            <a class="nav__link" href="">Chat</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="">Groups</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="">Students</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="">Support</a>
+        </li>
+
+       </ul>
+    </nav>
+    <button class="button"> 
+       <span class="icon">
+           <i class="las la-sign-out-alt"></i>
+        </span> 
+        log out</button>
+    <div>
+    
+    </div>
+   </aside>
+    <main>
+
+    </main>
+</body>
+</html>
